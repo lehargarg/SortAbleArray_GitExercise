@@ -1,3 +1,2 @@
-# SortAbleArray_GitExercise
-### Added sortIntegers feature 
+# SortAbleArray_GitExercise 
 ### Added sortStrings feature
