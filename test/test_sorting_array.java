@@ -2,7 +2,6 @@ package SortAbleArray_GitExercise.test;
 // the code to test the sorting array goes in this file
 import java.util.Arrays;
 import java.util.List;
-
 import SortAbleArray_GitExercise.src.SortableArray;
 
 public class test_sorting_array {
@@ -10,6 +9,7 @@ public class test_sorting_array {
         testSortIntegers();
     }
 
+    
     // Test for sorting integers
     private static void testSortIntegers() {
         System.out.println("=== Testing Integer Sorting ===");

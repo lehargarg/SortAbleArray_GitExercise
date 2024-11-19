@@ -1,6 +1,5 @@
 package SortAbleArray_GitExercise.src;
 // The code for sorting arrays goes in this file
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,7 +11,7 @@ public class SortableArray {
         return numbers.stream()
                 .sorted()
                 .collect(Collectors.toList());
-}
+    }
 
     public static void main(String[] args) {
         // Example usage
