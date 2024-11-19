@@ -7,9 +7,9 @@ import SortAbleArray_GitExercise.src.SortableArray;
 public class test_sorting_array {
     public static void main(String[] args) {
         testSortIntegers();
+        testSortStrings();
     }
 
-    
     // Test for sorting integers
     private static void testSortIntegers() {
         System.out.println("=== Testing Integer Sorting ===");
@@ -22,7 +22,14 @@ public class test_sorting_array {
         System.out.println("Result: " + result);
         System.out.println("Test Passed: " + result.equals(expected));
     }
+
+
+
+    // Test for sorting strings
+    private static void testSortStrings() {
+        System.out.println("\n=== Testing String Sorting ===");
+        List<String> strings = Arrays.asList("dog", "cat", "elephant", "bee");
+        List<String> expected = Arrays.asList("bee", "cat", "dog", "elephant");
+        List<String> result = SortableArray.sortStrings(strings);
+    }
 }
-
-
-
