@@ -1,5 +1,5 @@
-package SortAbleArray_GitExercise.src;
 // The code for sorting arrays goes in this file
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -21,3 +21,4 @@ public class SortableArray {
         System.out.println("Sorted: " + sortIntegers(numbers));
     }
 }
+
