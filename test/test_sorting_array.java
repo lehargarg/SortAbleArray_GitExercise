@@ -7,7 +7,6 @@ import SortAbleArray_GitExercise.src.SortableArray;
 
 public class test_sorting_array {
     public static void main(String[] args) {
-<<<<<<< HEAD
         testSortStrings();
     }
     // Test for sorting strings
@@ -18,7 +17,6 @@ public class test_sorting_array {
         List<String> result = SortableArray.sortStrings(strings);
 
         System.out.println("Input: " + strings);
-=======
         testSortIntegers();
     }
 
@@ -30,7 +28,6 @@ public class test_sorting_array {
         List<Integer> result = SortableArray.sortIntegers(numbers);
 
         System.out.println("Input: " + numbers);
->>>>>>> main
         System.out.println("Expected: " + expected);
         System.out.println("Result: " + result);
         System.out.println("Test Passed: " + result.equals(expected));
