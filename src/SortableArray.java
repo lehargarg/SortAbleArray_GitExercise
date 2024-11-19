@@ -21,9 +21,9 @@ public class SortableArray {
                 .collect(Collectors.toList());
     }
 
+// test comment for 3rd part
+
     public static void main(String[] args) {
-
-
         System.out.println("\n=== String Sorting ===");
         List<String> strings = Arrays.asList("banana", "apple", "grape", "mango");
         System.out.println("Original: " + strings);
