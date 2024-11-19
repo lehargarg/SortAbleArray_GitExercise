@@ -9,14 +9,11 @@ public class test_sorting_array {
         testSortStrings();
     }
 
-    
     // Test for sorting strings
     private static void testSortStrings() {
         System.out.println("\n=== Testing String Sorting ===");
         List<String> strings = Arrays.asList("dog", "cat", "elephant", "bee");
         List<String> expected = Arrays.asList("bee", "cat", "dog", "elephant");
         List<String> result = SortableArray.sortStrings(strings);
-
-
     }
 }
