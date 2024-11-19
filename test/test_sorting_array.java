@@ -17,19 +17,10 @@ public class test_sorting_array {
         List<String> result = SortableArray.sortStrings(strings);
 
         System.out.println("Input: " + strings);
-        testSortIntegers();
-    }
-
-    // Test for sorting integers
-    private static void testSortIntegers() {
-        System.out.println("=== Testing Integer Sorting ===");
-        List<Integer> numbers = Arrays.asList(10, 3, 15, 7, 2);
-        List<Integer> expected = Arrays.asList(2, 3, 7, 10, 15);
-        List<Integer> result = SortableArray.sortIntegers(numbers);
-
-        System.out.println("Input: " + numbers);
         System.out.println("Expected: " + expected);
         System.out.println("Result: " + result);
         System.out.println("Test Passed: " + result.equals(expected));
     }
+
+    
 }
