@@ -9,7 +9,9 @@ public class SortableArray {
 
     // Feature 2: Sort a list of strings
     public static List<String> sortStrings(List<String> strings) {
-        return strings.stream();
+        return strings.stream()
+                .sorted()
+                .collect(Collectors.toList());
     }
     // Feature 1: Sort a list of integers
     public static List<Integer> sortIntegers(List<Integer> numbers) {
