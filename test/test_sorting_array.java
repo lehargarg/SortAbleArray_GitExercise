@@ -8,7 +8,7 @@ import SortAbleArray_GitExercise.src.SortableArray;
 public class test_sorting_array {
     public static void main(String[] args) {
         testSortIntegers();
-    }
+}
 
     // Test for sorting integers
     private static void testSortIntegers() {

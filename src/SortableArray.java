@@ -12,7 +12,7 @@ public class SortableArray {
         return numbers.stream()
                 .sorted()
                 .collect(Collectors.toList());
-    }
+}
 
     public static void main(String[] args) {
         // Example usage
