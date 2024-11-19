@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SortableArray {
-
     // Feature 1: Sort a list of integers
     public static List<Integer> sortIntegers(List<Integer> numbers) {
         return numbers.stream()
